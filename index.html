@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Welcome to our Article Submission Portal</h1>
+    <h4>Please provide the following details</h4>
+
+    <form>
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="name">
+
+        <br>
+
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="password">
+
+        <br>
+
+        <label for="password">Confirm Password: </label>
+        <input type="password" name="password" id="password">
+
+        <br>
+
+        <label for="text">Select the type of Article: </label>
+        <br>
+        <input type="radio"> Research Survey
+        <input type="radio"> Research Article
+        <input type="radio"> Revised Article
+
+        <br>
+        <label for="text">Article Abstract: </label>
+        <textarea cols="10" rows="5">
+             Article Abstract here...
+        </textarea>
+
+
+        <br>
+        <label for="areas">Select the reaserch area:</label>
+        <select name="areas" id="areas">
+            <option value="data_analst">Data Analyst</option>
+            <option value="machine_learning">Machine Learning</option>
+            <option value="computer_network">Computer Network</option>
+
+        </select>
+
+        <br>
+        <label for="myfile">Upload your file in PDF format: </label>
+        <input type="file" id="myfile" name="myfile">
+
+        <br>
+
+        <input type="submit" name="submit">
+
+
+
+
+    </form>
+
+</body>
+
+</html>
